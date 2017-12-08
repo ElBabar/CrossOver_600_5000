@@ -8,3 +8,7 @@ Output 2 :
 High pass 5000Hz 4th order
 
 the circuit was designed on 2 PCBs because manufacturing costs for boards over 10x10cm are way more expensive.
+
+You might need to use my library:
+add https://github.com/ElBabar/Libabar.git
+to your KiCad paths.
