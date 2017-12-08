@@ -1,0 +1,248 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Libabar
+LIBS:XOver_colonne_top-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L XOver_c_L2 U2
+U 1 1 5A0B490F
+P 6050 1900
+F 0 "U2" H 6000 2300 60  0000 C CNN
+F 1 "XOver_c_L2" H 6000 2300 60  0000 C CNN
+F 2 "Libabar:XOver_c_L2" H 6000 2300 60  0001 C CNN
+F 3 "" H 6000 2300 60  0001 C CNN
+	1    6050 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L XOver_c_L2 U1
+U 1 1 5A0B4939
+P 3200 4250
+F 0 "U1" H 3150 4650 60  0000 C CNN
+F 1 "XOver_c_L3" H 3150 4650 60  0000 C CNN
+F 2 "Libabar:XOver_c_L3" H 3150 4650 60  0001 C CNN
+F 3 "" H 3150 4650 60  0001 C CNN
+	1    3200 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L L L1
+U 1 1 5A0B49DA
+P 4800 3750
+F 0 "L1" V 4750 3750 50  0000 C CNN
+F 1 "L" V 4875 3750 50  0000 C CNN
+F 2 "Libabar:XOver_c_L4" H 4800 3750 50  0001 C CNN
+F 3 "" H 4800 3750 50  0001 C CNN
+	1    4800 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 J9
+U 1 1 5A0B4A45
+P 7450 1650
+F 0 "J9" H 7450 1750 50  0000 C CNN
+F 1 "HIGH+" V 7550 1650 50  0000 C CNN
+F 2 "Libabar:XOver_c_Solder" H 7450 1650 50  0001 C CNN
+F 3 "" H 7450 1650 50  0001 C CNN
+	1    7450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 J10
+U 1 1 5A0B4B44
+P 7450 2400
+F 0 "J10" H 7450 2500 50  0000 C CNN
+F 1 "HIGH-" V 7550 2400 50  0000 C CNN
+F 2 "Libabar:XOver_c_Solder" H 7450 2400 50  0001 C CNN
+F 3 "" H 7450 2400 50  0001 C CNN
+	1    7450 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 J12
+U 1 1 5A0B4C07
+P 7450 3750
+F 0 "J12" H 7450 3850 50  0000 C CNN
+F 1 "LOW+" V 7550 3750 50  0000 C CNN
+F 2 "Libabar:XOver_c_Solder" H 7450 3750 50  0001 C CNN
+F 3 "" H 7450 3750 50  0001 C CNN
+	1    7450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 J11
+U 1 1 5A0B4CC3
+P 7450 2850
+F 0 "J11" H 7450 2950 50  0000 C CNN
+F 1 "LOW-" V 7550 2850 50  0000 C CNN
+F 2 "Libabar:XOver_c_Solder" H 7450 2850 50  0001 C CNN
+F 3 "" H 7450 2850 50  0001 C CNN
+	1    7450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 J6
+U 1 1 5A0B4CF4
+P 4150 2650
+F 0 "J6" H 4150 2750 50  0000 C CNN
+F 1 "Bridge1" V 4250 2650 50  0000 C CNN
+F 2 "Libabar:XOver_c_BRidge" H 4150 2650 50  0001 C CNN
+F 3 "" H 4150 2650 50  0001 C CNN
+	1    4150 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 J7
+U 1 1 5A0B4F2C
+P 5550 3100
+F 0 "J7" H 5550 3200 50  0000 C CNN
+F 1 "Bridge2" V 5650 3100 50  0000 C CNN
+F 2 "Libabar:XOver_c_BRidge" H 5550 3100 50  0001 C CNN
+F 3 "" H 5550 3100 50  0001 C CNN
+	1    5550 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 J1
+U 1 1 5A0B53CB
+P 2250 2250
+F 0 "J1" H 2250 2350 50  0000 C CNN
+F 1 "CH1" V 2350 2250 50  0000 C CNN
+F 2 "Libabar:XOver_c_CH1" H 2250 2250 50  0001 C CNN
+F 3 "" H 2250 2250 50  0001 C CNN
+	1    2250 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 J2
+U 1 1 5A0B5465
+P 2250 2500
+F 0 "J2" H 2250 2600 50  0000 C CNN
+F 1 "CH2" V 2350 2500 50  0000 C CNN
+F 2 "Libabar:XOver_c_CH2" H 2250 2500 50  0001 C CNN
+F 3 "" H 2250 2500 50  0001 C CNN
+	1    2250 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 J3
+U 1 1 5A0B554C
+P 3650 1650
+F 0 "J3" H 3650 1750 50  0000 C CNN
+F 1 "C1" V 3750 1650 50  0000 C CNN
+F 2 "Libabar:XOver_c_C1" H 3650 1650 50  0001 C CNN
+F 3 "" H 3650 1650 50  0001 C CNN
+	1    3650 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 J4
+U 1 1 5A0B5694
+P 4050 1650
+F 0 "J4" H 4050 1750 50  0000 C CNN
+F 1 "C2" V 4150 1650 50  0000 C CNN
+F 2 "Libabar:XOver_c_C2" H 4050 1650 50  0001 C CNN
+F 3 "" H 4050 1650 50  0001 C CNN
+	1    4050 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 J5
+U 1 1 5A0B56F9
+P 4050 3550
+F 0 "J5" H 4050 3650 50  0000 C CNN
+F 1 "C3" V 4150 3550 50  0000 C CNN
+F 2 "Libabar:XOver_c_C3" H 4050 3550 50  0001 C CNN
+F 3 "" H 4050 3550 50  0001 C CNN
+	1    4050 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 J8
+U 1 1 5A0B5832
+P 5550 3550
+F 0 "J8" H 5550 3650 50  0000 C CNN
+F 1 "C4" V 5650 3550 50  0000 C CNN
+F 2 "Libabar:XOver_c_C4" H 5550 3550 50  0001 C CNN
+F 3 "" H 5550 3550 50  0001 C CNN
+	1    5550 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 1650 2450 3950
+Connection ~ 2450 2500
+Wire Wire Line
+	4050 3750 4650 3750
+Connection ~ 4050 3750
+Wire Wire Line
+	4950 3750 7250 3750
+Wire Wire Line
+	4350 2650 5550 2650
+Wire Wire Line
+	5550 2400 5550 2900
+Wire Wire Line
+	5550 2400 7250 2400
+Wire Wire Line
+	5750 2400 5750 2050
+Connection ~ 5550 2650
+Wire Wire Line
+	5750 1900 5750 1650
+Wire Wire Line
+	4250 1650 7250 1650
+Wire Wire Line
+	3450 1650 2450 1650
+Connection ~ 2450 2250
+Connection ~ 5750 1650
+Connection ~ 5750 2400
+Connection ~ 5550 3750
+Wire Wire Line
+	5550 2850 7250 2850
+Connection ~ 5550 2850
+Wire Wire Line
+	4050 3750 4050 3950
+Wire Wire Line
+	4050 3950 3200 3950
+Wire Wire Line
+	2450 3950 3050 3950
+$EndSCHEMATC
